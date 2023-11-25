@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+ #  Clone ntwist.com Homepage in React.js.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This project involves creating a clone of the ntwist.com homepage using vite + React.js and Chakra UI. Follow these steps to get started:
 
-## Available Scripts
+ 
+[Deployed Link](https://ajay-ntwist.netlify.app/) &nbsp;
+[Github Link](https://github.com/Ajay84sia/NTWIST-Clone)
 
-In the project directory, you can run:
+# Prerequisites
+Before you begin, make sure you have the following installed:
 
-### `npm start`
+- Node.js and npm: You can download and install them from nodejs.org.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
+1. Clone this repository to your local machine:
+```
+git clone https://github.com/Ajay84sia/NTWIST-Clone.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
+```
+cd NTWIST-Clone
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone this repository to your local machine:
+```
+npm install
 
-### `npm run build`
+```
+## Development
+1. Start the development server:
+```
+npm run dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open your browser and navigate to http://127.0.0.1:5173/ to see the development version of the ntwist.com homepage. You can now begin making changes to the code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment to Netlify
 
-### `npm run eject`
+1. Create a Netlify account if you don't have one: [Netlify Sign-Up](https://app.netlify.com/signup).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the Netlify CLI (Command Line Interface) globally:
+```
+npm install -g netlify-cli
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+3. Log in to your Netlify account:
+```
+netlify login
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+4. Build your React app for production:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run build
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Deploy your app to Netlify:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+netlify deploy
+```
 
-### Code Splitting
+Follow the prompts in the terminal to set up the deployment, including selecting a site name, build command, and publishing directory. The build command should be npm run build, and the publish directory should be built.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Once the deployment is complete, your app will be accessible through a Netlify URL (e.g., https://your-site-name.netlify.app). You can configure custom domains and other settings in the Netlify dashboard.
 
-### Analyzing the Bundle Size
+## Customization
+You can customize the clone by editing the React components and styles in the src directory. Make sure to test your changes locally using npm start before deploying to Netlify.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Additional Resources
+- React.js documentation: [React Documentation](https://reactjs.org/docs/getting-started.html)
+- Netlify documentation: [Netlify Docs](https://docs.netlify.com/)
 
-### Making a Progressive Web App
+ ## Output (Large Screen): 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ ## Header -
+![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/4269c87e-713c-4d9f-897c-4f788c967836)
 
-### Advanced Configuration
+ ## Homepage -
+![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/07632f93-687f-4b1d-9d3e-51aff51e1ae8)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Footer -  
+ ![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/92ba82d4-558e-4854-af0f-284954362721)
 
-### Deployment
+ ## Output (Small Screen): 
+## Header -
+![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/c6a0fae6-a802-4e1e-8fa0-f5967ee4aa81)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Homepage - 
+![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/2f8cd906-c7b2-4251-9e9e-0990997d89fc)
 
-### `npm run build` fails to minify
+## Footer - 
+![image](https://github.com/Ajay84sia/NTWIST-Clone/assets/98752820/35ebe700-3794-48ba-a4c0-6e1ca5dfdc67)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! Feel free to reach out if you have any questions or need further assistance.
+
+
+
