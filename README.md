@@ -14,14 +14,8 @@ Before you begin, make sure you have the following installed:
 # Installation
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/Ajay84sia/NTWIST-Clone.git
-
+git clone https://github.com/warriorruchi/Finemee-Assignment
 ```
-
-```
-cd NTWIST-Clone
-```
-
 2. Clone this repository to your local machine:
 ```
 npm install
@@ -42,12 +36,12 @@ You can customize the clone by editing the React components and styles in the sr
 
  ## Output (Large Screen): 
 
- ## Header -
-[Screenshot 2023-11-26 122856](https://github.com/warriorruchi/Finemee-Assignment/assets/120272171/38615cf6-cf00-402e-b5ae-2159b883ca1f)
-
-
  ## Homepage -
 ![Screenshot 2023-11-26 122930](https://github.com/warriorruchi/Finemee-Assignment/assets/120272171/83d1e788-60a6-4ea4-9c04-541ef7e0641b)
+
+## Header -
+
+![Screenshot 2023-11-26 122856](https://github.com/warriorruchi/Finemee-Assignment/assets/120272171/f12ca676-aa03-425d-9f13-194b741c4a41)
 
 
 ## Footer -  
