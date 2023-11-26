@@ -24,7 +24,7 @@ npm install
 ## Development
 - Start the development server:
 ```
-npm run start
+npm run dev
 
 ```
 
