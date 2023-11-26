@@ -7,7 +7,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import React from "react";
-import Banner from "../assets/banner.jpg";
+import Banner from "../pictures/banner.jpg";
 
 const Hero = () => {
   return (
@@ -56,7 +56,7 @@ const Hero = () => {
             color="white"
             lineHeight="shorter"
           >
-            Data-powered solutions for Industrial Excellence 
+            Data-powered solutions for Industrial Excellence
           </chakra.h1>
           <Button colorScheme='blue'>Read More</Button>
 
